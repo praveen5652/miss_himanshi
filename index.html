@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I LOVE YOU Himanshi💕</title>
+<style>
+:root{ --w:600px; --h:849px; }
+body{
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:flex-end; /* book right-aligned */
+  align-items:center;
+  padding-right:50px;
+  background: linear-gradient(180deg, rgba(2,29,183,0.96), rgb(146,4,96));
+  font-family: "Lora", serif;
+}
+.motive {
+  margin-left: 10%;
+  padding-top: 20%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.motive span {
+  background: yellow;
+  color: black;
+}
+.book-container{ perspective:2500px; }
+.book{
+  width:var(--w);
+  height:var(--h);
+  position:relative;
+  transform-style: preserve-3d;
+  user-select:none;
+}
+.page{
+  width:100%;
+  height:100%;
+  position:absolute;
+  inset:0;
+  transform-style: preserve-3d;
+  transform-origin: left; /* left-side flip */
+  transition: transform 0.8s ease-in-out;
+  cursor:pointer;
+  z-index:0;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.page .front,
+.page .back{
+  position:absolute;
+  inset:0;
+  padding:28px;
+  box-sizing:border-box;
+  backface-visibility:hidden;
+  border:1px solid rgba(0,0,0,0.12);
+  background:#fdfbe9;
+  overflow:hidden;
+  box-shadow: inset 0 0 15px rgba(0,0,0,0.05); /* inner depth */
+}
+.page:not(#p0):not(#p5) .front{
+  padding-left:36px;
+  background: linear-gradient(to right, #fdfbe9 95%, #f0eecf 100%);}
+
+
+.page .back{ transform: rotateY(180deg);
+ }
+.flipped{ 
+  transform: rotateY(-180deg) translateZ(1px);
+  box-shadow: -5px 10px 20px rgba(0,0,0,0.3);
+}
+
+/* Front cover styling */
+#front-cover{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:#fff;
+  background: linear-gradient(#3e606f,#193441);
+}
+/* Front cover back: completely blank, no shadow, no border */
+#p0 .back{
+  background: linear-gradient(#3e606f,#193441); /* plain cream/white color */
+  box-shadow:none;
+  border:none;
+}
+/* Back cover styling */
+#back-cover{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:#fff;
+  background: linear-gradient(#3e606f,#193441);
+}
+#p5 .front{
+  background:linear-gradient(#347896,#193441);
+  box-shadow:none;
+  border:none;
+}
+/* Back cover back side: same gradient as front of back cover */
+#front-cover h1,#back-cover h1{ font-size:40px; margin:0 0 12px 0; }
+#front-cover img{ max-width:90%; max-height:70%; border:5px solid #fff; box-shadow:0 8px 24px rgba(0,0,0,0.35); }
+.page:not(#p0) .front{ padding-left:36px; }
+.page .front p{ margin:0; font-size:20px; line-height:1.5; color:#111; }
+
+.info{
+  position:fixed; bottom:14px; left:50%; transform:translateX(-50%);
+  font-size:14px; color:#fff; background: rgba(0,0,0,0.25); padding:6px 10px; border-radius:8px;
+}
+
+</style> 
+<div class="motive">
+      <h2>
+        1 book kya aap pe to zindagi likh du💕
+          <br />
+          <br>
+              <div align="left">
+                <p> ✨My lifetime crush Himanshi💕 aapke liye kuch bhi😻✨.</p>
+            </div> 
+          <br />
+        <br>
+        <span> You're so sweet💖.</span>
+      </h2>
+    </div>
+<div class="info">Click right → , click left ←</div>
+</head>
+<body>
+   
+
+<div class="book-container">
+  <div class="book" id="book">
+    <!-- Front Cover -->
+    <div class="page" id="p0">
+      <div class="front" id="front-cover">
+        <h1>✨My love Himanshi💕</h1>
+        <img src="WhatsApp Image 2025-09-21 at 8.58.32 PM.jpeg" height="750" width="850" alt="Himanshi" onerror="this.style.display='none'"/>
+      </div>
+      <div class="back"></div> <!-- Completely blank back -->
+    </div>
+
+    <!-- Page 1 -->
+    <div class="page" id="p1">
+      <div class="front"><p><h1><B> <u><i>Dear Himanshi❤️, this is for you </i></u>🤞💖</B></h1></p>
+        <p>
+          <h2>"Every moment spent with you feels like <br>
+           A chapter from my favorite book ⭐,<br>
+           and I can't help but want to write more stories together💫<br> Would you do me the honor of allowing me💫<br>
+            to be your co-author in this😚 <br>
+             beautiful journey called life?⭐"
+             </h2>
+             <br>
+             <details> <summary>
+             ka koi itna khubsurat kasa ho sakta ha!
+            </summary>  
+                      </details>
+                      <br>  
+          <details> <summary>
+              Mera liya sirf tum he sab kuch ha.
+             </summary>
+                      </details>
+            </br>
+                      
+        </p>
+        <h3><iframe width="520" height="320" src="833e17c5-e00d-47ae-a8cb-fd65b62128ff.mp4" alt="video should not able to listen"  allowfullscreen> </iframe>
+        </h3>
+</div>
+    
+      <div class="back"><p><p>
+          <h2>Aapke meri life mai aana or aake aise bass jana. <br>
+          you know what jb bhi aap mujhse naraj hote ho. <br>
+          mai kaise rehta hu ye mujhe pta h 😭 bss express nhi karta ho. </h3> </p>
+          <h1>💫<u> <i>i love you to the moon and sky </i></u>💫 🤞💖</h1>
+        </p>
+        <p>
+          <h2>Meri life ka sbse best din pta hai konsa tha!!???? <br>
+          Jab tuma paheli baar coaching ma dekha kafi time tak tuma dekha or socha ya ladki mujsa baat kyo he karagi but jab meri bato ma tumne be intrest dekhaya to muja be both acha feel hua THANK'S for that day Himanshi💕.<br>
+          i always love's you at the end of my life.
+          </h2>
+          <b><h2>💫 <u> <i>i love u </i></u>💫 😭🤞💖 </h2></b>
+        </p>
+        <p></p>
+                <img src="ai-generated-8737205_640.webp"width="550" height="280" alt=""></div>
+    </div>
+
+    <!-- Page 2 -->
+    <div class="page" id="p2">
+      <div class="front">
+      <p>
+          <H1>✨ <u> <i> Ab kuch shayari for you </i></u>✨  </H1>
+          <br><h2><B>▶ Mere pyaar kee daastaan kaise tujhe samajhauga bas ek cheej ka gila rahega kabhee tuja bhool nahin pauga.</B>        
+        <br>
+       <b>▶Ki Ham kah Na Sake chalo Ikrar Karte Hain Tum Jise Roj Aaine Mein Dekhti ho ham usse Pyar Karte Hain. </h2>
+          </b>
+        </p>
+        <p>
+         <h3>Mun krta hai ki bss tere se hi baat krta rahu pyaar krta rahu <br>
+         chahe duniya mai kuch ho jaaye bss tera hi bann ke rehna chahta hu 😭🤞
+         <br> tum mere shareer ka vo hissa bann chuki hai ab <br>
+         jo na rahe to mai jee nahi skta <br>
+         to rahogi na mere saath or rakhegi na mujhe jinda?? </h3>
+        </p>
+        <p>
+          <h3> Ab btao tum tareef krne ko bolti hai mai to tere <br>
+         mere pyaar pe picture bana du, <br>tum bss meri hoke to dekho,<br>
+         meri jindagi ki movie mai tujhe apni heroine hi bana du😘</h3>
+        </p>
+        <p>
+          <h2> 💫<u> love u bby love u love u love u </u>💫😘 </h2>
+          <br>
+          <b><h2>
+            ▶ Logo ka gya hoga COACHING ka time kharab mera to best tha <br>
+          why?? <br>
+          because god gifted me you😭🤞</b> </h3>
+                </p></div>
+      <div class="back"><p><b><h1>💫<u> <i> I looooooooooooovvvvvvvvvvveeeeeeeeeeeee youuu so much Himanshi</i></u>❤️ </h1></b>         <br>
+         <h2>you are the most precious gift in my life <br>
+         so i can't take any risk to loose you😭🤞.<h2></h2>
+         <br>
+        </p>
+        <p><h2>
+          If anyone say choose b/w money and you i'll choose money 🤣 <br>
+         SORRY majjak tha 🤣 , i'll always choose you <br>
+          you're my perfect partner and most important person in my life🥺 is you 
+          Himanshi.
+        </p>
+        <p>
+          Pta hai Himanshi❤️ mai aisa ladka nhi tha, <br>
+          Tujhe bhi pta hai mujhe pharak nhi padta kon aata hai or kon jata hai, <br>
+          meri jindagi se mgr pta nhi kyu Tujhse pharak padne laga or bht jyada padne laga.
+          mai jyada to nhi jaanta mgr itta jaanta hu ki nhi reh skta mai tere bina ab
+          <br><h3>________________________</h3>
+        <h2>tumsa jab ek din baat nhi hoti hato adhura adhura lagta ha . </h2></p></div>
+    </div>
+
+    
+  <div class="page" id="p3">
+  <div class="front">
+    <p><h1>✨<u> <i> I can't explain my love in words.</i></u>✨</p></h1>
+        <br><h2>Your smile is the most beautiful thing I've ever seen, and I want to be the reason behind.</h2></br>
+        <p></p>
+        <p><img src="WhatsApp Image 2025-09-21 at 9.24.19 PM.jpeg"width="400" height="300" alt=""></p>
+        <h1> <u><i>So cute</i></u>🤭🤭</h1>
+        <h2>
+      Tum meri duniya ka wo hissa ho jo <br>
+      mere liye sabse important hai. <br>
+      Tum bina meri life adhoori lagti hai. 😭🤞</h2>
+    </p>
+    <p>
+      Agar koi puchhe ki zindagi mai sabse <br>
+      khoobsurat cheez kya hai, <br>
+      to mai sirf tumara naam loonga – <b>Himanshi❤️</b>
+    </p>
+  </div>
+  <div class="back">
+    <img src="WhatsApp Image 2025-09-21 at 9.06.27 PM.jpeg" height="500" width="550" alt=""></p>
+        <p>
+         <h3>⭐Thak gya hu yaar tari is picture ko baar baar dakh ka har baar or zada dekhna ka mun karta h. en Akho ki be to ek limite hoti hena ab tu he bata kiya karu yaar bina dekha rah be nahi pa raha hu <p><b>Why are you so cute</b> 
+         lagta ha bas tuma Manata Manata he puri Zindagi khat jaygi⭐ 🤣🤣</h3>
+        
+    
+    <p> <h3>
+      Tumare saath bitaye har ek lamhe ka <br>
+      matlab meri zindagi ka best chapter hai. <br>
+      Tum meri kahani ka sabse beautiful part ho. 😘
+</h3>
+    </p>
+  </div>
+</div>
+
+<!-- Page 4 -->
+<div class="page" id="p4">
+  <div class="front">
+    <h1>💫<u><i>I love you beyond world</i></u>💫</h1>
+   <P><h2>✨Ager tu yaha tak read kar rahi ha to i'll very very Thankfull to you✨</h2>
+          <u><p><b><h2>▶sorry ager tuja kuch acha na laga ho to yaar ma sirf apni dil ki feelings share kar raha hu </h2>
+        </u></b></p> <p> <h2>ek baat batana cahuga ki kabi kabi ma tujsa baat nahi karta hu tera online hota hua, its not mean ka ma tumko ignore karta hu. 
+         BUT ager sachi baat batau to vo mara Attitude ya Ego nahi balki yaar DAR lagta ha tumsa pata nahi but alag he gabrat hoti ha 
+        tumsa baat karna ki himat nahi hoti ha bas isi waja sa tumsa baat nahi kar pata hu please yaar tu isa mera Attitude mat samjna  <p><b> ⭐or ager ho saka to muja apni tarf sa Message kardiya kar i'll promise tuma instent reply duga⭐🥺🥺</b>
+     again sorry yaar yus har chiz ka liya jisa tuma mari waja sa problems hui ho.</P>
+      <b>▶Wasa ma is website ka zariya baat to both sari karna chahta hu but sayad ab tu be boor ho rahi h
+       kuch akkri baata bolna cahuga. </b>
+       <p>
+        <b>✨Tuja pata ha is website ko tayar karna ma muja 15 din laga har din ma yahi sochta tha kab ya website tuja dikhau or tera review lu 
+          I hoop so tuja ya saab pasand aya ho ager HAA to mari mehnat safal ho gai 
+          THANK you so much✨</h2></div>
+
+        </b></p>
+  <div class="back">
+    <P> <img src="WhatsApp Image 2025-09-21 at 9.06.28 PM.jpeg"width="550"height="600" alt=""> 
+    </P>
+    <H2>WHY YOU ARE LOOKING SO CUTE <br>💖💖</H2>
+    
+
+  </div>
+</div>
+<!-- Back Cover -->
+    <div class="page" id="p5">
+  <div class="front"></div>
+  <div class="back" id="back-cover">
+    <h1>Always Yours</h1>
+    <p><h2>(Made with love by Praveen💖) </h2></p>
+  </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const book = document.getElementById("book");
+  const pages = Array.from(document.querySelectorAll(".book .page"));
+  const total = pages.length;
+  let current = 0;
+
+  pages.forEach((pg,i)=>pg.style.zIndex=total-i);
+
+  function nextPage(){
+    if(current>=total) return;
+    pages[current].classList.add("flipped");
+    pages[current].style.zIndex = current;
+    current++;
+  }
+
+  function prevPage(){
+    if(current<=0) return;
+    current--;
+    pages[current].classList.remove("flipped");
+    pages[current].style.zIndex = total-current;
+  }
+
+  book.addEventListener("click", e=>{
+    const rect = book.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    if(x > rect.width/2) nextPage();
+    else prevPage();
+  });
+
+  document.addEventListener("keydown", e=>{
+    if(e.key==="ArrowRight") nextPage();
+    if(e.key==="ArrowLeft") prevPage();
+  });
+
+  book.addEventListener("mousedown", e=>e.preventDefault());
+});
+</script>
+
+</body>
+</html>
